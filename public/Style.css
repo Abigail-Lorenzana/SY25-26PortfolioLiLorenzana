@@ -1,0 +1,157 @@
+  body{
+      font-family: Genshin;
+      font-size: 15px;
+      background-image: linear-gradient(to bottom, rgba(146, 226, 237, 0) 0%,rgb(19, 20, 20) 100%),
+      linear-gradient(to top, rgba(255, 255, 255, 0) 0%, rgb(19, 20, 20) 110%), url(###);
+      background-repeat: no-repeat;
+      background-size: cover;
+      margin: 0;
+    }
+
+  @font-face {
+    font-family: Genshin;
+    src: url(../assets/zh-cn.ttf);
+   }
+   
+  nav{
+    padding: 1rem 5%;
+    background-color: rgb(19, 20, 20);
+    border-bottom: 2px solid rgb(250, 205, 57); 
+    margin-bottom: 2rem;
+    margin-top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+   }
+
+  .logo{
+     font-size: 1.8rem;
+     font-weight: 700;
+     color:rgb(250, 205, 57);
+     letter-spacing: 1px;
+     margin-right: auto;
+   }
+
+  .links { 
+     list-style: none;
+     display: flex;
+     gap: 2rem;
+     margin-right: 30px;
+   }
+
+  h1, h2, h3{
+    color:rgb(250, 205, 57);
+   }
+
+  p {
+    color: white;
+   }
+
+  .wrapper{
+    padding: 0 15px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    gap: 2rem; 
+  }
+
+  .header{
+    padding: 0 1px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: left;
+    justify-content: space-around;
+    gap: 1rem;
+    margin-right: auto;
+  }
+   
+  #head{
+    margin-right: auto;
+    position: right;
+   }
+
+  #logo {
+    position: right;
+   }
+
+  hr{
+    height: 2px;
+    background-color: rgb(250, 205, 57);
+  }
+
+  .content {
+    flex: 1;
+    margin-right: auto;
+    background-size: cover;
+    padding: 20px;
+    text-shadow: 0 0 10px rgb(39, 102, 110);
+  }
+
+  .links li a {
+    position: relative;
+    font-size: 1.05rem;
+    font-weight: 500;
+    text-decoration: none;
+    color: rgb(250, 205, 57);
+    transition: 0.3s;
+   }
+
+  .links li a:hover {
+    color: rgb(255, 255, 255);
+    text-shadow: 0 0 10px rgb(196, 242, 248);
+   }
+   
+  a:link {
+    color: rgb(63, 156, 170);
+    background-color: transparent;
+    text-decoration: none;
+  }
+
+  a:visited {
+    color: rgb(63, 156, 170);
+    background-color: transparent;
+    text-decoration: none;
+  }
+
+  a:hover {
+    color: rgb(250, 205, 57);
+    background-color: transparent;
+    text-decoration: underline;
+   }
+   
+  table{
+      width: 60%;
+      border-collapse: collapse;
+      margin: 1rem auto;
+    }
+
+  th{
+      background-color: rgb(19, 20, 20);
+    }
+
+  td{
+       background-color: rgb(19, 20, 20);
+    }
+
+  table, th, td{
+      border: 3px solid rgb(250, 205, 57);
+      text-align: center;
+      font-size: 15px;
+      color:rgb(244, 242, 239);
+      padding: 8px;}
+      
+  #Vision {
+    float: top;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+    }
+
+
+  footer {
+    background-color: rgb(0, 0, 0);
+    padding: 15px;
+    text-align: center;
+    font-size: 10px;
+   }
