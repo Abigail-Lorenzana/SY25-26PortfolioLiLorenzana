@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="2Q Portfolio">
+    <meta name="keywords" content="2Q, Portfolio, Projects, Web Development">
+    <meta name="author" content="Abigail Lorenzana">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="../asset/primogem.png" sizes="100x100" type="image/png"> 
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    
+<form method="post" action="submit">
+
+<fieldset>
+<label>
+    Student ID:
+    <input type="number" name="studentID" required>
+</label>
+<br/><br/>
+<label>
+    Full Name:
+    <input type="text" name="fullName" required>
+</label>
+<br/><br/>
+<label>
+    Birthday:
+    <input type="date" name="birthday" required>
+</label>
+<br/><br/>
+<label>
+    Email Address:
+    <input type="email" name="email" required>
+</label>
+<br/><br/>
+
+<label>
+    Mobile Phone:
+    <input type="text" name="mobilePhone" required>
+</label>
+<br/><br/>
+
+<label>
+    Grade Level:
+    <select name="gradeLevel" required>
+        <option value="g7">Grade 7</option>
+        <option value="g8">Grade 8</option>
+        <option value="g9">Grade 9</option>
+        <option value="g10">Grade 10</option>
+        <option value="g11">Grade 11</option>
+        <option value="g12">Grade 12</option>
+    </select>
+</label>
+<br/><br/>
+
+<label>
+    Intern/Extern:<br/>
+        <input type="radio" name="status" value="intern" required>
+            Intern
+        </label>
+        <br><br>
+        <label>
+            <input type="radio" name="status" value="extern" required>
+            Extern
+        </label>
+        <br><br>
+    </label>
+
+<label>
+    Preferred Organization/Club:<br/>
+    <select name="orgclub" required>
+        <option value="orgclub1">AstroSoc</option>
+        <option value="orgclub2">Likha</option>
+        <option value="orgclub3">Math Club</option>
+        <option value="orgclub4">Bake Club</option>
+        <option value="orgclub5">Lagablab</option>
+        <option value="orgclub6">The Science Scholar</option>
+        <option value="orgclub6">Solace</option>
+    </select>
+</label><br/><br/>
+
+<label>
+    Why do you want to join?<br/>
+    <textarea name="reason" rows ="4" cols="40"required>
+    </textarea>
+</label>
+    </fieldset><br/>
+
+    <input type="submit" value="Submit">
+    <input type="reset" value="Reset">
+
+    </form>
+
+    <footer>
+        <hr/>
+            <p>Copyright <span>&copy; Abigail Lorenzana</span></p>
+    </footer>
+</body>
+</html>
