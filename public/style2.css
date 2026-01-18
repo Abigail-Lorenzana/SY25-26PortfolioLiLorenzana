@@ -1,0 +1,18 @@
+form {
+    width: 400px;
+    margin: auto;
+    font-family: Arial, sans-serif;
+}
+
+input, select, textarea {
+    padding: 6px;
+    width: 95%;
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+    background-color: #8ac3ff;
+    border: 3px solid rgb(30, 145, 86);
+    outline: none;
+}

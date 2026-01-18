@@ -6,40 +6,43 @@
     <meta name="description" content="2Q Portfolio">
     <meta name="keywords" content="2Q, Portfolio, Projects, Web Development">
     <meta name="author" content="Abigail Lorenzana">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="style2.css">
     <link rel="icon" href="../asset/primogem.png" sizes="100x100" type="image/png"> 
     <script src="script.js" defer></script>
+
 </head>
 
 <body>
     
-<form method="post" action="submit">
+<form method="post" action="submit"
+      onsubmit="return confirmSubmit()"
+      onreset="return confirmReset()">
 
 <fieldset>
 <label>
     Student ID:
-    <input type="number" name="studentID" required>
+    <input type="number" id="studentID" name="studentID" required onblur="checkEmpty('studentID')">
 </label>
 <br/><br/>
 <label>
     Full Name:
-    <input type="text" name="fullName" required>
+    <input type="text" id="fullName" name="fullName" required onblur="checkEmpty('fullName')">
 </label>
 <br/><br/>
 <label>
     Birthday:
-    <input type="date" name="birthday" required>
+    <input type="date" id="birthday" name="birthday" required onblur="checkEmpty('birthday')">
 </label>
 <br/><br/>
 <label>
     Email Address:
-    <input type="email" name="email" required>
+    <input type="email" id="email" name="email" required onblur="checkEmpty('email')">
 </label>
 <br/><br/>
 
 <label>
     Mobile Phone:
-    <input type="text" name="mobilePhone" required>
+    <input type="text" id="mobilePhone" name="mobilePhone" required onblur="checkEmpty('mobilePhone')">
 </label>
 <br/><br/>
 
@@ -83,7 +86,7 @@
 </label><br/><br/>
 
 <label>
-    Why do you want to join?<br/>
+    Why do you want to join?
     <textarea name="reason" rows ="4" cols="40"required>
     </textarea>
 </label>
